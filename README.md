@@ -1,4 +1,4 @@
-# **STOCK SORT**
+# **StockSort**
 
 A command-line tool to rank stocks by buy-probability using QuickSort or MergeSort
 
@@ -83,4 +83,5 @@ The tool reads the 7th column (Adjusted Close) to compute buy-probability
     - Files with fewer than two data rows are marked AVOID at 0.00%
     - QuickSort is randomized for average O(n log n), worst-case O(n^2)
     - MergeSort guarntees O(n log n) time and uses O(n) extra space
+
 
